@@ -1,0 +1,33 @@
+<!-- FORMULARIO EJEMPLO -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form 1</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <input type="text" name="name" placeholder="Name">
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <div> Favourite Color
+            <input name="color" type="radio" value="red"> Red
+            <input name="color" type="radio" value="blue"> Blue
+            <input name="color" type="radio" value="green"> Green
+            <input name="color" type="radio" value="other"> Other
+        </div>
+        <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Afganistan">
+                <option value="Belgium">
+                <option value="Colombia">
+                <option value="Denmark">
+            </datalist>
+        </div>
+    </form>
+</body>
+
+</html>

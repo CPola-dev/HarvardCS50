@@ -1,0 +1,30 @@
+<!-- ESTILO CSS -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Style</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- stylesheet vincula una hoja de estilo para esta página -->
+    <style>
+        #foo {
+            color: blue;
+        }
+
+        .baz {
+            color: red;
+        }
+    </style>
+    <!-- #foo es un ID, debe ser para un unico elemento -->
+    <!-- .baz es una clase, puede ser para multiples elementos -->
+    <!-- Si existe un conflicto de doble especificación, se maneja la siguiente Jerarquia -->
+    <!-- Inline (estilo agregado directamente en la linea) > Id > Class > Type (h1, table, form ...) -->
+</head>
+
+<body>
+    <h1 id="foo"> Titulo 1 </h1>
+    <h1 class="baz"> Titulo 1 </h1>
+    <h1 class="baz"> Titulo 1 </h1>
+</body>
+
+</html>
